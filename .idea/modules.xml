@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.alan.chang.fizzbuzz.iml" filepath="$PROJECT_DIR$/.idea/modules/com.alan.chang.fizzbuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.alan.chang.fizzbuzz.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.alan.chang.fizzbuzz.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.alan.chang.fizzbuzz.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.alan.chang.fizzbuzz.test.iml" />
+    </modules>
+  </component>
+</project>

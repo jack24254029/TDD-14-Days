@@ -24,7 +24,15 @@ public class FizzBuzzTest {
     public void checkNumberIsBuzz() {
         assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(5));
         assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(10));
-        assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(15));
+        assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(20));
+        assertEquals("1", fizzBuzz.checkNumberIsBuzz(1));
+    }
+
+    @Test
+    public void checkNumberIsFizzBuzz() {
+        assertEquals("FizzBuzz", fizzBuzz.checkNumberIsFizzBuzz(15));
+        assertEquals("FizzBuzz", fizzBuzz.checkNumberIsFizzBuzz(30));
+        assertEquals("FizzBuzz", fizzBuzz.checkNumberIsFizzBuzz(45));
         assertEquals("1", fizzBuzz.checkNumberIsBuzz(1));
     }
 }

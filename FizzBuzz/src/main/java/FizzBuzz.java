@@ -8,4 +8,9 @@ public class FizzBuzz {
         if (num % 5 == 0) return "Buzz";
         return String.valueOf(num);
     }
+
+    public String checkNumberIsFizzBuzz(int num) {
+        if (num % 15 == 0) return "FizzBuzz";
+        return String.valueOf(num);
+    }
 }

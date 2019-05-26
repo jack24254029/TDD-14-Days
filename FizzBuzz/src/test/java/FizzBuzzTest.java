@@ -20,4 +20,11 @@ public class FizzBuzzTest {
         assertEquals("1", fizzBuzz.checkNumberIsFizz(1));
     }
 
+    @Test
+    public void checkNumberIsBuzz() {
+        assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(5));
+        assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(10));
+        assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(15));
+        assertEquals("1", fizzBuzz.checkNumberIsBuzz(1));
+    }
 }

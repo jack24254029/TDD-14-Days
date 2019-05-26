@@ -17,6 +17,9 @@ public class FizzBuzzTest {
         assertEquals("Fizz", fizzBuzz.checkNumberIsFizz(3));
         assertEquals("Fizz", fizzBuzz.checkNumberIsFizz(6));
         assertEquals("Fizz", fizzBuzz.checkNumberIsFizz(9));
+        assertEquals("Fizz", fizzBuzz.checkNumberIsFizz(31));
+        assertEquals("Fizz", fizzBuzz.checkNumberIsFizz(32));
+        assertEquals("Fizz", fizzBuzz.checkNumberIsFizz(33));
         assertEquals("1", fizzBuzz.checkNumberIsFizz(1));
     }
 
@@ -25,6 +28,9 @@ public class FizzBuzzTest {
         assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(5));
         assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(10));
         assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(20));
+        assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(51));
+        assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(52));
+        assertEquals("Buzz", fizzBuzz.checkNumberIsBuzz(53));
         assertEquals("1", fizzBuzz.checkNumberIsBuzz(1));
     }
 

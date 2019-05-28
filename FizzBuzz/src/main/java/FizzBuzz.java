@@ -18,4 +18,8 @@ public class FizzBuzz {
         if (num % 15 == 0) return "FizzBuzz";
         return showNumber(num);
     }
+
+    public String checkNumberIncludeThree(int num) {
+        return null;
+    }
 }

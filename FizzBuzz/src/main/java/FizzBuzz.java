@@ -13,4 +13,8 @@ public class FizzBuzz {
         if (num % 5 == 0) return "Buzz";
         return showNumber(num);
     }
+
+    public String checkNumberByFifteen(int num) {
+        return null;
+    }
 }

@@ -18,4 +18,12 @@ public class FizzBuzzTest {
         Assert.assertEquals("4", fizzBuzz.showNumber(4));
     }
 
+    @Test
+    public void checkNumberByThree() {
+        Assert.assertEquals("Fizz", fizzBuzz.checkNumberByThree(3));
+        Assert.assertEquals("Fizz", fizzBuzz.checkNumberByThree(6));
+        Assert.assertEquals("Fizz", fizzBuzz.checkNumberByThree(9));
+        Assert.assertEquals("Fizz", fizzBuzz.checkNumberByThree(12));
+    }
+
 }

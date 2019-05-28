@@ -20,6 +20,7 @@ public class FizzBuzz {
     }
 
     public String checkNumberIncludeThree(int num) {
-        return null;
+        if (String.valueOf(num).contains("3")) return "Fizz";
+        return showNumber(num);
     }
 }

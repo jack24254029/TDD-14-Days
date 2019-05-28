@@ -5,6 +5,7 @@ public class FizzBuzz {
     }
 
     public String checkNumberByThree(int num) {
+        if (num % 3 == 0) return "Fizz";
         return null;
     }
 }

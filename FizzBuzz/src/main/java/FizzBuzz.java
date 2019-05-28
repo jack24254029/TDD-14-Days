@@ -10,6 +10,7 @@ public class FizzBuzz {
     }
 
     public String checkNumberByFive(int num) {
+        if (num % 5 == 0) return "Buzz";
         return null;
     }
 }

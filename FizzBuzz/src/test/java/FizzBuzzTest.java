@@ -26,4 +26,12 @@ public class FizzBuzzTest {
         Assert.assertEquals("Fizz", fizzBuzz.checkNumberByThree(12));
     }
 
+    @Test
+    public void checkNumberByFive() {
+        Assert.assertEquals("Buzz", fizzBuzz.checkNumberByFive(5));
+        Assert.assertEquals("Buzz", fizzBuzz.checkNumberByFive(10));
+        Assert.assertEquals("Buzz", fizzBuzz.checkNumberByFive(15));
+        Assert.assertEquals("Buzz", fizzBuzz.checkNumberByFive(20));
+    }
+
 }

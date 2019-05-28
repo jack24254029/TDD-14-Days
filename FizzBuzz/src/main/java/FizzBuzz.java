@@ -8,4 +8,8 @@ public class FizzBuzz {
         if (num % 3 == 0) return "Fizz";
         return null;
     }
+
+    public String checkNumberByFive(int num) {
+        return null;
+    }
 }

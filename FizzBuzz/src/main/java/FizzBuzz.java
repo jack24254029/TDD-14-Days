@@ -6,11 +6,11 @@ public class FizzBuzz {
 
     public String checkNumberByThree(int num) {
         if (num % 3 == 0) return "Fizz";
-        return null;
+        return showNumber(num);
     }
 
     public String checkNumberByFive(int num) {
         if (num % 5 == 0) return "Buzz";
-        return null;
+        return showNumber(num);
     }
 }

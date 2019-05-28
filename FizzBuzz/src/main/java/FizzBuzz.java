@@ -23,4 +23,9 @@ public class FizzBuzz {
         if (String.valueOf(num).contains("3")) return "Fizz";
         return showNumber(num);
     }
+
+    public String checkNumberIncludeFive(int num) {
+        if (String.valueOf(num).contains("5")) return "Buzz";
+        return showNumber(num);
+    }
 }

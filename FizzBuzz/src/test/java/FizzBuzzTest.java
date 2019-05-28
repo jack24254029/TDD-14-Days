@@ -48,4 +48,10 @@ public class FizzBuzzTest {
         Assert.assertEquals("Fizz", fizzBuzz.checkNumberIncludeThree(35));
     }
 
+    @Test
+    public void checkNumberIncludeFive() {
+        Assert.assertEquals("Buzz", fizzBuzz.checkNumberIncludeThree(50));
+        Assert.assertEquals("Buzz", fizzBuzz.checkNumberIncludeThree(53));
+        Assert.assertEquals("Buzz", fizzBuzz.checkNumberIncludeThree(55));
+    }
 }

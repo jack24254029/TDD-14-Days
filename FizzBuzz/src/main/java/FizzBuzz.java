@@ -1,6 +1,6 @@
 public class FizzBuzz {
 
     public String showNumber(int num) {
-        return null;
+        return String.valueOf(num);
     }
 }
